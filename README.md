@@ -1,35 +1,35 @@
-# Hangman Game in C
+# 🎮 Hangman Game in C
 
-A classic CLI-based Hangman game implemented in C. Test your vocabulary skills by guessing letters to uncover the hidden word before the hangman is fully drawn!
+A classic CLI-based Hangman game implemented in C. Test your vocabulary skills by guessing letters to uncover the hidden word before the hangman is fully drawn! 🖥️
 
-## Features
+## 🌟 Features
 
-- Classic Hangman gameplay in the terminal
-- Random word selection from a programming-themed word list
-- Visual hangman that updates with each incorrect guess
-- Input validation to ensure only letters are accepted
-- Prevention of duplicate letter guesses
-- Win/loss detection with appropriate messages
-- Case-insensitive input handling
+- Classic Hangman gameplay in the terminal 🎯
+- Random word selection from a programming-themed word list 💻
+- Visual hangman that updates with each incorrect guess 🖼️
+- Input validation to ensure only letters are accepted ✅
+- Prevention of duplicate letter guesses 🚫
+- Win/loss detection with appropriate messages 🏆
+- Case-insensitive input handling 🔤
 
-## How to Play
+## 🕹️ How to Play
 
-1. The game randomly selects a word from a predefined list of programming-related terms
-2. You need to guess the word by entering one letter at a time
-3. For each correct guess, the letter will appear in its correct position(s) in the word
-4. For each incorrect guess, a part of the hangman figure will be drawn
-5. You have 7 incorrect guesses before the game ends
-6. If you guess all letters correctly before using all guesses, you win!
-7. If the hangman figure is fully drawn, you lose
+1. The game randomly selects a word from a predefined list of programming-related terms 🎲
+2. You need to guess the word by entering one letter at a time 🔠
+3. For each correct guess, the letter will appear in its correct position(s) in the word ✅
+4. For each incorrect guess, a part of the hangman figure will be drawn ⚠️
+5. You have 7 incorrect guesses before the game ends ⏳
+6. If you guess all letters correctly before using all guesses, you win! 🏆
+7. If the hangman figure is fully drawn, you lose 💀
 
-## Game Controls
+## 🎮 Game Controls
 
-- Enter a single letter (A-Z or a-z) when prompted
-- The game will validate your input and provide feedback
-- Previous guesses are tracked and displayed
-- The game prevents duplicate guesses
+- Enter a single letter (A-Z or a-z) when prompted ⌨️
+- The game will validate your input and provide feedback 📢
+- Previous guesses are tracked and displayed 📋
+- The game prevents duplicate guesses 🚫
 
-## Word List
+## 📚 Word List
 
 The game randomly selects from these programming-related words:
 - PROGRAMMING
@@ -43,12 +43,12 @@ The game randomly selects from these programming-related words:
 - POINTER
 - LIBRARY
 
-## Requirements
+## 🛠️ Requirements
 
-- A C compiler (GCC, Clang, etc.)
-- A terminal or command prompt
+- A C compiler (GCC, Clang, etc.) 🔧
+- A terminal or command prompt 💻
 
-## How to Compile and Run
+## ▶️ How to Compile and Run
 
 ### On Linux/Mac:
 ```bash
@@ -68,7 +68,7 @@ If you're on Windows, you can directly run the provided executable:
 main.exe
 ```
 
-## Game Interface
+## 🎨 Game Interface
 
 ```
 Welcome to Hangman!
@@ -88,31 +88,31 @@ Guessed Letters:
 Enter a letter: 
 ```
 
-## Technical Details
+## ⚙️ Technical Details
 
 - Language: C
 - Uses standard libraries: stdio.h, stdlib.h, string.h, ctype.h, time.h
-- Implements a visual hangman using ASCII art
-- Random word selection using srand() and rand()
-- Case-insensitive input handling with toupper()
-- Input validation to ensure only alphabetic characters are accepted
-- Memory-efficient implementation with fixed-size arrays
+- Implements a visual hangman using ASCII art 🎨
+- Random word selection using srand() and rand() 🎲
+- Case-insensitive input handling with toupper() 🔤
+- Input validation to ensure only alphabetic characters are accepted ✅
+- Memory-efficient implementation with fixed-size arrays 💾
 
-## Game Rules
+## 📜 Game Rules
 
-1. You start with 7 incorrect guesses
+1. You start with 7 incorrect guesses 🎯
 2. Each incorrect guess adds a part to the hangman figure:
-   - 1st wrong guess: Head
-   - 2nd wrong guess: Body
-   - 3rd wrong guess: Left arm
-   - 4th wrong guess: Right arm
-   - 5th wrong guess: Left leg
-   - 6th wrong guess: Right leg
-3. Guessing a correct letter reveals all instances of that letter in the word
-4. Duplicate guesses are not counted as incorrect
-5. Invalid input (non-alphabetic characters) is rejected
+   - 1st wrong guess: Head 🎩
+   - 2nd wrong guess: Body 👕
+   - 3rd wrong guess: Left arm 🖐️
+   - 4th wrong guess: Right arm 🖐️
+   - 5th wrong guess: Left leg 🦵
+   - 6th wrong guess: Right leg 🦵
+3. Guessing a correct letter reveals all instances of that letter in the word ✨
+4. Duplicate guesses are not counted as incorrect 🚫
+5. Invalid input (non-alphabetic characters) is rejected ❌
 
-## Screenshots
+## 📸 Screenshots
 
 ### Game in Progress
 ```
@@ -137,8 +137,8 @@ Guessed Letters: P R O M A L T
       |
       |
 =========
-Congratulations! You guessed the word: PROGRAM
-You Win!
+🏆 Congratulations! You guessed the word: PROGRAM
+🎉 You Win!
 ```
 
 ### Loss State
@@ -150,15 +150,16 @@ You Win!
  / \  |
       |
 =========
-Game Over! You ran out of guesses.
+💀 Game Over! You ran out of guesses.
 The word was: PROGRAMMING
-You Lose!
+😢 You Lose!
 ```
 
-## Author
+## ✍️ Author
 
-This Hangman game was developed as a simple C programming exercise.
+This Hangman game was developed as a simple C programming exercise. 👨‍💻
 
-## License
+## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the MIT License. 📜
+
