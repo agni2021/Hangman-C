@@ -1,2 +1,4 @@
-# Hangman-C
-This Is A Word Guessing Game Called "Hangman"!! I Have Made The Game Using C Language
+#🎮 CLI Hangman Game
+A Classic Word-Guessimg Game Built With C, Playable Directly From Your Command Line
+=====================================
+
